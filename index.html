@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Website Tutorial</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hide">
+    <nav>
+      <a href="index.html"><img src="img/logo.png" alt="GAGS" class="logo"></a>
+      <ul>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="#">Sign up</a>
+        </li>
+        <li class="search">
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="hamburger">
+          <a href="#">
+            <div class="bar"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="vignette hide"></div>
+    <img src="img/background.png" data-speedx="0.3" data-speedy="0.38" data-speedz="0" data-rotation="0"
+      data-distance="-200" class="parallax bg-img">
+    <div class="text parallax" data-speedx="0.07" data-speedy="0.07" data-speedz="0" data-rotation="0.11">
+      <h1>ADVISORY GROUP</h1>
+      <h2>SWITZERLAND</h2>
+    </div>
+    <!--floating cloud-->
+    <div class="cloud-float">
+            <img src="img/cloud1.png" style="--i:1" alt="">
+            <img src="img/cloud2.png" style="--i:5" alt="">
+            <img src="img/cloud3.png" style="--i:3" alt="">
+            <img src="img/cloud4.png" style="--i:4" alt="">
+            <img src="img/cloud5.png" style="--i:2" alt="">
+    </div>
+  </main>
+
+  <footer class="hide">
+    <nav>
+      <a href="index.html"><img src="img/logo.png" alt="GAGS" class="logo"></a>
+      <ul>
+        <li>
+          <a href="#">Global Advisory Group AG Switzerland</a>
+        </li>
+        <li>
+          <a href="#">Stockerstrasse 38 , 8002 Zurich, Switzerland</a>
+        </li>
+        <li>
+          <a href="#">Office: +41 44 000 000 00</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+
+
+
+  <script src="js/gsap.min.js"></script>
+  <script src="js/app.js" defer></script>
+</body>
+
+</html>
