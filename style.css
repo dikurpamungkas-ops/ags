@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 80px;
 }
 
 header {
@@ -28,7 +28,6 @@ header {
   padding: 0.9rem 0;
   top: 0;
   left: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 header nav {
@@ -319,42 +318,6 @@ main {
   pointer-events: none;
 }
 
-footer {
-  z-index: 9999;
-  background: #341c02;
-  width: 100%;
-  padding: 0.9rem 0;
-  top: 0;
-  left: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  pointer-events: none;
-  height: fit-content;
-}
-
-footer nav {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-footer ul a {
-  text-decoration: none;
-  color: #fedd9d;
-  padding: 0 1.5rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 0.83rem;
-}
-
 .cloud-float{
   width: 100%;
   height: 100%;
@@ -403,7 +366,7 @@ footer ul a {
     padding: 0 1rem;
   }
 
-  .footer nav {
+  main nav {
     padding: 0 1rem;
   }
 
@@ -528,4 +491,54 @@ footer ul a {
   .text h2 {
     font-size: 2.6rem;
   }
+}
+
+
+
+
+
+main .content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0 5rem;
+  margin-top: 30rem;
+  margin-left: 5rem;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  padding: 0.9rem 0;
+  top: 0;
+  left: 0;
+  
+}
+
+main .content .left{
+  width:  30%;
+  
+
+}
+
+main nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-left: 15rem;
+}
+
+main ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+main ul a {
+  text-decoration: none;
+  color: #fedd9d;
+  padding: 0 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.83rem;
 }
