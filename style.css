@@ -501,7 +501,6 @@ main .content {
   display: flex;
   justify-content: space-between;
   padding-bottom: 0 5rem;
-  margin-top: 30rem;
   margin-left: 5rem;
   position: absolute;
   z-index: 9999;
@@ -509,6 +508,8 @@ main .content {
   padding: 0.9rem 0;
   top: 0;
   left: 0;
+  margin-top: 36rem;
+  
   
 }
 
@@ -524,8 +525,9 @@ main nav {
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: end;
   padding-left: 15rem;
+  padding-right: 7rem;
+  margin-top: 2rem;
 }
 
 main ul {
