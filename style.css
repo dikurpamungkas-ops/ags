@@ -126,6 +126,14 @@ main {
   z-index: -1;
 }
 
+.bg{
+  position: absolute;
+  width: 194.44%;
+  top: 1.86%;
+  left: 50.69%;
+  z-index: -1;
+}
+
 .fog-7 {
   position: absolute;
   z-index: 2;
@@ -508,7 +516,7 @@ main .content {
   padding: 0.9rem 0;
   top: 0;
   left: 0;
-  margin-top: 36rem;
+  margin-top: 35rem;
   
   
 }
@@ -527,7 +535,7 @@ main nav {
   justify-content: space-between;
   padding-left: 15rem;
   padding-right: 7rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 main ul {
