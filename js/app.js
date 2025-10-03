@@ -46,19 +46,7 @@ setTimeout(() => {
   });
 }, timeline.endTime() * 1000);
 
-Array.from(parallax_el)
-  .filter((el) => !el.classList.contains("text"))
-  .forEach((el) => {
-    timeline.from(
-      el,
-      {
-        top: `${el.offsetHeight / 2 + +el.dataset.distance}px`,
-        duration: 3.5,
-        ease: "power3.out",
-      },
-      "1"
-    );
-  });
+
 
 timeline
   .from(
