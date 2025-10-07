@@ -10,7 +10,6 @@
 
 body {
   font-family:'Garamond', sans-serif;
-
 }
 
 ::selection {
@@ -382,6 +381,16 @@ main {
     width: 75px;
   }
 
+  .content {
+    width: 75px;
+  }
+
+  main ul a {
+    font-size: 0.73rem;
+    padding: 0 0.9rem;
+  }
+
+
   header ul a {
     font-size: 0.73rem;
     padding: 0 0.9rem;
@@ -516,7 +525,7 @@ main .content {
   padding: 0.9rem 0;
   top: 0;
   left: 0;
-  margin-top: 35rem;
+  margin-top: 30rem;
   
   
 }
@@ -548,7 +557,7 @@ main ul a {
   text-decoration: none;
   color: #fedd9d;
   padding: 0 1.5rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 0.83rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-transform: lowercase;
 }
